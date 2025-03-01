@@ -1,0 +1,36 @@
+{
+  "quadcopter": {
+    "title": "Flying drones with deep learning",
+    "subtitle": "Python, PyTorch, Proximal Policy Optimization",
+    "link": "https://github.com/zachvin/impact-recovery",
+    "description": "here is a test description."
+  },
+
+  "eyetracker": {
+    "title": "Webcam eye tracker",
+    "subtitle": "Python, PyTorch, Computer Vision, MediaPipe, Convolutional Neural Nets",
+    "link": "https://github.com/CVRL/EyeTracking",
+    "description": "here is a test description."
+  },
+
+  "pendulum": {
+    "title": "Balancing a pendulum with reinforcement learning",
+    "subtitle": "Python, PyTorch, Reinforcement Learning, Gymnasium",
+    "link": "https://github.com/CVRL/EyeTracking",
+    "description": "here is a test description."
+  },
+
+  "insurance": {
+    "title": "Predicting insurance responses",
+    "subtitle": "Python, XGBoost, Pandas",
+    "link": "https://github.com/CVRL/EyeTracking",
+    "description": "here is a test description."
+  },
+
+  "preference": {
+    "title": "Detecting implicit textual user preferences",
+    "subtitle": "Python, PyTorch, BERT, LLMs",
+    "link": "https://github.com/CVRL/EyeTracking",
+    "description": "here is a test description."
+  }
+}
