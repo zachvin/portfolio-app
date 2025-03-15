@@ -1,26 +1,14 @@
 import React from "react";
-import { useEffect, useState } from "react";
 import Thumbnail from "./Thumbnail.jsx";
-import data from "../../project-data.json";
+import data from "/public/project-data.json";
+
+import "./Thumbnail.css";
 
 const Thumbnails = () => {
-  //   const [thumbnails, setThumbnails] = useState([]);
-
-  //   const thumbnailClicked = () => {
-  //     // do something?
-  //     alert("clicked!");
-  //   };
-
-  //   useEffect(() => {
-  //     getThumbnails().then((thumbnails) => {
-  //       setThumbnails(thumbnails);
-  //     });
-  //   }, []);
-
   return (
     <div className="thumbnails">
-      {Object.entries(data).map(([key, project]) => (
-        <Thumbnail project={project} />
+      {Object.entries(data).map(([name, project]) => (
+        <Thumbnail key={name} name={name} project={project} />
       ))}
     </div>
   );

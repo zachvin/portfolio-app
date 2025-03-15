@@ -1,18 +1,18 @@
-import { useState } from "react";
-import Thumbnails from "./Components/Thumbnails/Thumbnails.jsx";
-import Nav from "./Components/Nav/Nav.jsx";
-import Header from "./Components/Header/Header.jsx";
-
-import "./App.css";
-import "./Components/Thumbnails/Thumbnail.css";
-import "./Components/Header/Header.css";
+import Nav from "./Components/Shared/Nav/Nav.jsx";
+import Home from "./Components/Home/Home.jsx";
+import Projects from "./Components/Projects/Projects.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Nav />
-      <Header />
-      <Thumbnails />
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="projects/:projectId" element={<Projects />} />
+        </Routes>
+      </Router>
     </>
   );
 }

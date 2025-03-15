@@ -1,4 +1,10 @@
 {
+  "about": {
+    "title": "About",
+    "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in the powerful ways neural networks can be designed and optimized to find creative solutions to hidden problems. I'm graduating from the University of Notre Dame this spring.",
+    "link": ""
+  },
+
   "quadcopter": {
     "title": "Flying drones with deep learning",
     "subtitle": "Python, PyTorch, Proximal Policy Optimization",
@@ -25,6 +31,13 @@
     "subtitle": "Python, XGBoost, Pandas",
     "link": "https://github.com/CVRL/EyeTracking",
     "description": "here is a test description."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "zvincent@nd.edu",
+    "link": "",
+    "description": ""
   },
 
   "preference": {
