@@ -18,6 +18,9 @@ dist-ssr
 **/*.back.*
 bower_components
 
+### firebase ###
+.firebaserc
+.firebase
 
 # Editor directories and files
 .vscode/*
