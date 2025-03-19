@@ -33,17 +33,17 @@
     "description": "here is a test description."
   },
 
-  "contact": {
-    "title": "Contact",
-    "subtitle": "zvincent@nd.edu",
-    "link": "",
-    "description": ""
-  },
-
   "preference": {
     "title": "Detecting implicit textual user preferences",
     "subtitle": "Python, PyTorch, BERT, LLMs",
     "link": "https://github.com/CVRL/EyeTracking",
     "description": "here is a test description."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "subtitle": "zvincent@nd.edu",
+    "link": "",
+    "description": ""
   }
 }
