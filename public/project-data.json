@@ -5,10 +5,24 @@
     "link": ""
   },
 
-  "quadcopter": {
-    "title": "Flying drones with deep learning",
-    "subtitle": "Python, PyTorch, Proximal Policy Optimization",
-    "link": "https://github.com/zachvin/impact-recovery",
+  "sentiment": {
+    "title": "Deploying a sentiment analysis model online",
+    "subtitle": "Python, PyTorch, BERT, LLMs, React, ONNX, Docker",
+    "link": "",
+    "description": ""
+  },
+
+  "site": {
+    "title": "Portfolio site with React + Vite",
+    "subtitle": "HTML, CSS, JavaScript, React",
+    "link": "https://github.com/zachvin/portfolio-app",
+    "description": ""
+  },
+
+  "preference": {
+    "title": "Detecting implicit textual user preferences",
+    "subtitle": "Python, PyTorch, BERT, LLMs",
+    "link": "https://github.com/CVRL/EyeTracking",
     "description": "here is a test description."
   },
 
@@ -16,6 +30,13 @@
     "title": "Webcam eye tracker",
     "subtitle": "Python, PyTorch, Computer Vision, MediaPipe, Convolutional Neural Nets",
     "link": "https://github.com/CVRL/EyeTracking",
+    "description": "here is a test description."
+  },
+
+  "quadcopter": {
+    "title": "Flying drones with deep learning",
+    "subtitle": "Python, PyTorch, Proximal Policy Optimization",
+    "link": "https://github.com/zachvin/impact-recovery",
     "description": "here is a test description."
   },
 
@@ -29,13 +50,6 @@
   "insurance": {
     "title": "Predicting insurance responses",
     "subtitle": "Python, XGBoost, Pandas",
-    "link": "https://github.com/CVRL/EyeTracking",
-    "description": "here is a test description."
-  },
-
-  "preference": {
-    "title": "Detecting implicit textual user preferences",
-    "subtitle": "Python, PyTorch, BERT, LLMs",
     "link": "https://github.com/CVRL/EyeTracking",
     "description": "here is a test description."
   },

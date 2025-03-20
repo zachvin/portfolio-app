@@ -26,6 +26,10 @@
   line-height: 3.2rem;
 }
 
+.project-page a {
+  color: #60935d;
+}
+
 .project-back {
   color: #152128;
   text-decoration: underline;
