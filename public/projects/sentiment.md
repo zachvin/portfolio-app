@@ -1,13 +1,13 @@
 # Abstract
 
-The purpose of this project is to build skills in natural language processing and model deployment. I have currently trained a DistilBERT model for sentiment analysis on a set of short entries to identify whether each entry shows sadness, joy, love, anger, fear, or surprise. My next steps are to wrap it in a Docker container and an API and deploy it online.
+The purpose of this project is to build skills in natural language processing and model deployment. I have trained a DistilBERT model for sentiment analysis on a set of short entries to identify whether each entry shows sadness, joy, love, anger, fear, or surprise. The GitHub repository can be found [here](https://github.com/zachvin/sentiment-analysis).
 
 # Technologies
 
 - Natural language processing (BERT)
 - PyTorch
+- FastAPI
 - Docker
-- ONNX
 
 # Overview
 
@@ -21,4 +21,8 @@ To train the model, I decided to fine-tune DistilBERT, which is a BERT derivativ
 
 # Exporting the model
 
+To export the model, I saved the best weights and created a short `main.py` file that loads the model and adds a `/predict` endpoint with FastAPI. I then wrote a Dockerfile to build an image with all the necessary dependencies. After testing it on my local machine, I am ready to send the Dockerfile to a cloud service for hosting.
+
 # Hosting the model
+
+I have not yet hosted the model.
