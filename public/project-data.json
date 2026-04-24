@@ -1,7 +1,7 @@
 {
   "about": {
     "title": "About",
-    "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in the powerful ways neural networks can be designed and optimized to find creative solutions to hidden problems. I'm graduating from the University of Notre Dame this spring.",
+    "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in creative applications of reinforcement learning for robotics and autonomous agents. I'm a graduate of the University of Notre Dame.",
     "link": ""
   },
 
@@ -9,7 +9,8 @@
     "title": "Deploying a sentiment analysis model online",
     "subtitle": "Python, PyTorch, BERT, LLMs, React, ONNX, Docker",
     "link": "",
-    "description": ""
+    "description": "",
+    "highlighted": true
   },
 
   "site": {
@@ -23,7 +24,8 @@
     "title": "Detecting implicit textual user preferences",
     "subtitle": "Python, PyTorch, BERT, LLMs",
     "link": "https://github.com/CVRL/EyeTracking",
-    "description": "here is a test description."
+    "description": "here is a test description.",
+    "highlighted": true
   },
 
   "eyetracker": {
@@ -56,7 +58,7 @@
 
   "contact": {
     "title": "Contact",
-    "subtitle": "zvincent@nd.edu",
+    "subtitle": "zachtvin@gmail.com",
     "link": "",
     "description": ""
   }

@@ -23,6 +23,19 @@
   transition: all 0.2s;
 }
 
+.highlight-badge {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background-color: #E26D5A;
+  color: #ffffff;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+}
+
 .thumbnail h1 {
   font-size: 1.8rem;
   margin: 0;
@@ -56,6 +69,23 @@
 .info a {
   color: #60935d;
   font-size: 1.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.social-link:hover img {
+  opacity: 1;
 }
 
 .project:hover {

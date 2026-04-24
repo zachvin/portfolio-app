@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import githubIcon from "../../assets/github.svg";
+import linkedinIcon from "../../assets/linkedin.svg";
 
 const Thumbnail = ({ name, project }) => {
   const Element = ["about", "contact"].includes(name) ? "div" : Link; // Select Link or div
@@ -14,13 +16,20 @@ const Thumbnail = ({ name, project }) => {
       }`}
       {...props}
     >
+      {project.highlighted && <span className="highlight-badge">Featured</span>}
       <h1 className="roboto-serif-light">{project.title}</h1>
       <h2 className="poppins-medium">{project.subtitle}</h2>
-      {["about", "contact"].includes(name) && (
-        <a href={name} className="roboto-serif-light">
-          See more
-        </a>
+      {name === "contact" && (
+        <div className="social-links">
+          <a href="https://github.com/zachvin" target="_blank" rel="noreferrer" className="social-link">
+            <img src={githubIcon} alt="GitHub" />
+          </a>
+          <a href="https://linkedin.com/in/zachv" target="_blank" rel="noreferrer" className="social-link">
+            <img src={linkedinIcon} alt="LinkedIn" />
+          </a>
+        </div>
       )}
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
