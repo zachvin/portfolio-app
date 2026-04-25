@@ -23,7 +23,32 @@
 
 .project-page *:not(h1) {
   font-size: 1.4rem;
-  line-height: 3.2rem;
+  line-height: 1.75;
+}
+
+.markdown-body p {
+  margin-top: -2.4rem;
+  margin-bottom: 1.2rem;
+  color: #2a2a2a;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: -2.4rem;
+  padding-left: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.markdown-body li {
+  margin-bottom: 0.3rem;
+}
+
+.markdown-body code {
+  font-family: "Courier New", monospace;
+  font-size: 0.85em;
+  background-color: #f0f0f0;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
 }
 
 .project-page a {

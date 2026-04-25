@@ -5,6 +5,13 @@
     "link": ""
   },
 
+  "testify": {
+    "title": "Testify",
+    "subtitle": "React, Python, FastAPI, Docker, Google Kubernetes Engine",
+    "link": "",
+    "description": ""
+  },
+
   "sentiment": {
     "title": "Deploying a sentiment analysis model online",
     "subtitle": "Python, PyTorch, BERT, LLMs, React, ONNX, Docker",

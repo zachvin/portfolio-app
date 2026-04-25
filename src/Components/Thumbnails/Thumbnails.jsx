@@ -1,6 +1,6 @@
 import React from "react";
 import Thumbnail from "./Thumbnail.jsx";
-import data from "/public/project-data.json";
+import data from "../../project-data.json";
 
 import "./Thumbnail.css";
 

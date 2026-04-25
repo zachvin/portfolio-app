@@ -11,7 +11,7 @@ const Project = ({ filePath }) => {
       .catch((err) => console.error("Error loading markdown:", err));
   }, [filePath]);
 
-  return <Markdown>{content}</Markdown>;
+  return <div className="markdown-body"><Markdown>{content}</Markdown></div>;
 };
 
 export default Project;
