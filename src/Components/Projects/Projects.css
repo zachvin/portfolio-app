@@ -137,3 +137,30 @@
   filter: brightness(0) invert(1);
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .project-page {
+    width: 92vw;
+  }
+
+  .project-page .project-title {
+    font-size: 3rem;
+  }
+
+  .project-back {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .markdown-body h1 {
+    font-size: 1.6rem;
+  }
+
+  .markdown-body h2 {
+    font-size: 1.4rem;
+  }
+
+  .markdown-body h3 {
+    font-size: 1.3rem;
+  }
+}

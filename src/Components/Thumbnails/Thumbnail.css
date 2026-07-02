@@ -114,5 +114,10 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .thumbnails {
+    width: 92vw;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
 }

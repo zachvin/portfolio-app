@@ -34,3 +34,19 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 14rem;
+  }
+
+  .header h1 {
+    font-size: 2.8rem;
+  }
+
+  .header h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin-top: -5.5rem;
+  }
+}
