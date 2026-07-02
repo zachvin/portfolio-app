@@ -1,23 +1,30 @@
 {
   "about": {
     "title": "About",
-    "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in creative applications of reinforcement learning for robotics and autonomous agents. I'm a graduate of the University of Notre Dame.",
+    "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in creative applications of reinforcement learning for autonomous agents and automated decision making. I'm a graduate of the University of Notre Dame.",
     "link": ""
   },
+  
+  "walking": {
+    "title": "Walking a quadruped with deep learning",
+    "subtitle": "Python, PyTorch, Reinforcement Learning (D4PG), Gymnasium",
+    "link": "https://github.com/zachvin/walk-rl",
+    "description": "here is a test description."
+  },
+
 
   "testify": {
-    "title": "Testify",
+    "title": "One-click neural network hosting app",
     "subtitle": "React, Python, FastAPI, Docker, Google Kubernetes Engine",
-    "link": "",
+    "link": "https://github.com/zachvin/testify",
     "description": ""
   },
 
   "sentiment": {
     "title": "Deploying a sentiment analysis model online",
-    "subtitle": "Python, PyTorch, BERT, LLMs, React, ONNX, Docker",
+    "subtitle": "Python, PyTorch, BERT, LLMs, React, Docker",
     "link": "",
-    "description": "",
-    "highlighted": true
+    "description": "https://github.com/zachvin/sentiment-analysis"
   },
 
   "site": {
@@ -28,11 +35,10 @@
   },
 
   "preference": {
-    "title": "Detecting implicit textual user preferences",
+    "title": "Detecting implicit textual user preferences with fine-tuning",
     "subtitle": "Python, PyTorch, BERT, LLMs",
-    "link": "https://github.com/CVRL/EyeTracking",
-    "description": "here is a test description.",
-    "highlighted": true
+    "link": "",
+    "description": "here is a test description."
   },
 
   "eyetracker": {
@@ -44,7 +50,7 @@
 
   "quadcopter": {
     "title": "Flying drones with deep learning",
-    "subtitle": "Python, PyTorch, Proximal Policy Optimization",
+    "subtitle": "Python, PyTorch, Reinforcement Learning (PPO)",
     "link": "https://github.com/zachvin/impact-recovery",
     "description": "here is a test description."
   },
@@ -52,14 +58,14 @@
   "pendulum": {
     "title": "Balancing a pendulum with reinforcement learning",
     "subtitle": "Python, PyTorch, Reinforcement Learning, Gymnasium",
-    "link": "https://github.com/CVRL/EyeTracking",
+    "link": "https://github.com/zachvin/reinforcement-learning",
     "description": "here is a test description."
   },
 
   "insurance": {
     "title": "Predicting insurance responses",
     "subtitle": "Python, XGBoost, Pandas",
-    "link": "https://github.com/CVRL/EyeTracking",
+    "link": "https://github.com/zachvin/fraud-prediction",
     "description": "here is a test description."
   },
 
