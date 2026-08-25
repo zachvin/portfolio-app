@@ -4,6 +4,12 @@
     "subtitle": "I'm a data engineer with a focus in machine learning. I'm interested in creative applications of reinforcement learning for autonomous agents and automated decision making. I'm a graduate of the University of Notre Dame.",
     "link": ""
   },
+
+  "data-ai": {
+    "title": "LLM-powered data analytics web app",
+    "subtitle": "Python, Claude API, React+Vite",
+    "link": "https://github.com/zachvin/data-ai"
+  },
   
   "walking": {
     "title": "Walking a quadruped with deep learning",
@@ -12,19 +18,17 @@
     "description": "here is a test description."
   },
 
-
   "testify": {
     "title": "One-click neural network hosting app",
     "subtitle": "React, Python, FastAPI, Docker, Google Kubernetes Engine",
-    "link": "https://github.com/zachvin/testify",
-    "description": ""
+    "link": "https://github.com/zachvin/testify"
   },
 
   "sentiment": {
     "title": "Deploying a sentiment analysis model online",
     "subtitle": "Python, PyTorch, BERT, LLMs, React, Docker",
-    "link": "",
-    "description": "https://github.com/zachvin/sentiment-analysis"
+    "link": "https://github.com/zachvin/sentiment-analysis",
+    "description": ""
   },
 
   "site": {
