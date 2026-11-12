@@ -91,7 +91,7 @@
 
 .project:hover {
   cursor: pointer;
-  background-color: #f5f5f5;
+  background-color: rgba(0,0,0,0);
   scale: 1.05;
 }
 

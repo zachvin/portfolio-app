@@ -7,6 +7,11 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      { "source": "/r", "destination": "/", "type": 302 },
+      { "source": "/li", "destination": "/", "type": 302 },
+      { "source": "/gh", "destination": "/", "type": 302 }
+    ],
     "rewrites": [
       {
         "source": "**",
